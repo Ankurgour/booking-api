@@ -15,10 +15,11 @@
     "dialect": "postgres"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "ankur123",
+    "password": "OfbmuGddeqDDpCoUHcoVS4qbel7jh3Kc",
+    "database": "retreats_service",
+    "host": "dpg-cqic89aj1k6c739c4il0-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "port": "5432"
   }
 }
