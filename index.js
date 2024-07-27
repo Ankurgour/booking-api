@@ -33,8 +33,10 @@ const options = {
   apis: ['./routes/*.js'], 
 };
 const swaggerSpec = swaggerJsdoc(options);
-
-app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+app.get('/', (req, res) => {
+  res.redirect('/docs');
+});
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.use(bodyParser.json());
 const dbConfig = config[env];

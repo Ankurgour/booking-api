@@ -8,6 +8,10 @@ const swaggerDefinition = {
   servers: [
     {
       url: process.env.WORKINGURL,
+      description: 'Production server',
+    },
+    {
+      url:"http://localhost:3000",
       description: 'Development server',
     },
   ],
@@ -400,7 +404,7 @@ const swaggerDefinition = {
         ],
         responses: {
           '200': {
-            description: 'A list of retreats',
+            description: 'A list ofqsEDFDF retreats',
             content: {
               'application/json': {
                 schema: {
