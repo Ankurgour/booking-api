@@ -38,6 +38,7 @@ PGPASSWORD=OfbmuGddeqDDpCoUHcoVS4qbel7jh3Kc
 PGPORT=5432
 DATABASE_URL=postgresql://ankur123:OfbmuGddeqDDpCoUHcoVS4qbel7jh3Kc@dpg-cqic89aj1k6c739c4il0-a.oregon-postgres.render.com/retreats_service
 SECRET_KEY=ankurisagoodboy 
+WORKINGURL = https://booking-api-ffn0.onrender.com
 set all this things in that file
 ### Database Setup
 

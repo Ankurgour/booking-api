@@ -7,7 +7,7 @@ const swaggerDefinition = {
   },
   servers: [
     {
-      url: 'http://localhost:3000',
+      url: process.env.WORKINGURL,
       description: 'Development server',
     },
   ],
